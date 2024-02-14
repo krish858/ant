@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+   /* background: #3f3f3f */
+}
+.firstpage{
+    background-image: url(./assets/blue.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.secondpage{
+    background-image: url(./assets/blue.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.krypto{
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.features{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+@media (max-width: 600px) {
+    .features {
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      gap: 20px;
+    }
+    
+  }
+.bakchodi{
+    height: 80px;
+}
+img{
+    height: 320px;
+}
+.h{
+    background: orangered;
+}
