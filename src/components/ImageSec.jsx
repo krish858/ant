@@ -3,8 +3,8 @@ import React from 'react';
 function ImageSec() {
     return (
         <div className='mx-4'>
-            <p className='text-white text-xl text-center'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda doloribus nobis dolore officiis perspiciatis adipisci ducimus sunt totam dicta corrupti, repellat ratione odit inventore ex voluptatum laboriosam maxime voluptatibus quisquam.
+            <p className='text-white text-2xl text-center'>
+                With the support of it's dedicated team,vibrant community, and strategic partnerships, Fishy Inu is poised to make a lasting impact and create a fairer,more equitable financial economy for all.
             </p>
         </div>
     );

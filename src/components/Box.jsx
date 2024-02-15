@@ -2,9 +2,9 @@ import React from "react";
 
 function Box(props){
     return(
-        <div className="bg-red-500 h-[250px] w-[250px]">
-            <h1 className="text-center">{props.head}</h1>
-            <p className="text-center">{props.content}</p>
+        <div className="baksa rounded-lg h-[250px] w-[250px]">
+            <b><h1 className="text-center pt-3 text-xl text-[#ff4500]">{props.head}</h1></b>
+            <p className="text-center p-1 text-white">{props.content}</p>
         </div>
     )
 }

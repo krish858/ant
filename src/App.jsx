@@ -5,7 +5,8 @@ import ImageSec from "./components/ImageSec"
 import krypto from "./assets/krypto.png"
 import Features from "./components/Features"
 import Benifits from "./components/Benifits"
-
+import TokenManagemnet from "./components/TokenManagement"
+import Donation from "./components/Donation"
 
 
 function App() {
@@ -13,7 +14,6 @@ function App() {
 
   return (
     <>
-    <NavBar/>
     <div className="firstpage  h-auto w-full">
       <Home/>
       <ImageSec/>
@@ -22,8 +22,10 @@ function App() {
       </div>
       <Features/>
       <Benifits/>
+       <TokenManagemnet/>
+       <Donation/>
+       
     </div>
-    
     </>
   )
 }

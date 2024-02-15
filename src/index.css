@@ -38,12 +38,21 @@ body{
       gap: 20px;
     }
     
-  }
+}
+.baksa{
+    background-image: url(./assets/test5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .bakchodi{
     height: 80px;
 }
 img{
     height: 320px;
+}
+#icon{
+    height: 36px;
 }
 .h{
     background: orangered;
