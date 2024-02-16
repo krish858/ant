@@ -5,9 +5,9 @@ import React from "react"
 function Home(){
     return(
         <>
-          <div className="pt-9 px-5">
+          <div className="py-9 px-5">
           <b><h1 className='text-4xl text-left text-white'>FISHY INU</h1></b>
-          <h1 className="text-4xl text-left text-[#ff4500]">Crafting Tomorrow's Token Economy Today</h1>
+          
           </div>
           <div className="py-7 px-4">
             <b><h1 className="text-3xl text-center text-[#ff4500]">WE ARE FISHY INU</h1></b>

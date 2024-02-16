@@ -3,16 +3,17 @@
 @tailwind utilities;
 
 body{
-   /* background: #3f3f3f */
+   background: #3f3f3f 
 }
-.firstpage{
+
+.secondpage{
     background-image: url(./assets/blue.jpg) ;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
 }
-.secondpage{
-    background-image: url(./assets/blue.jpg) ;
+.pie{
+    background-image: url(./assets/kfs.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,7 +25,11 @@ body{
     display: flex;
     flex-direction: row;
 }
-
+.clouds{
+    display: flex;
+    flex-direction: row;
+    
+}
 .features{
     display: flex;
     flex-direction: row;
@@ -39,12 +44,7 @@ body{
     }
     
 }
-.baksa{
-    background-image: url(./assets/test5.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 .bakchodi{
     height: 80px;
 }
